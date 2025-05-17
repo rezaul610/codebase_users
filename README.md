@@ -42,7 +42,7 @@ It features infinite scrolling, pull-to-refresh, and real-time search functional
     flutter run
 
 
-# 📁 Project Structure
+## 📁 Project Structure
     lib/
     ├── bloc/                               # BLoC logic (events, states, bloc)
     │   ├── user_bloc.dart
@@ -62,5 +62,19 @@ It features infinite scrolling, pull-to-refresh, and real-time search functional
     ├── services/                           # Service call 
     │   └── connectivity_service.dart
     └── main.dart                           # App entry point
+
+---
+
+## 🔍 Search Functionality
+- Searches are performed locally on the fetched data.
+- Filters the list by first name or last name.
+
+---
+
+## 👨‍💻 Author
+- Rezaul Karim
+@rezaul610
+
+
 
 
