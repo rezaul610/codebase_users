@@ -1,4 +1,4 @@
-import 'package:codebase_users/bloc/bloc/user_bloc.dart';
+import 'package:codebase_users/bloc/user_bloc.dart';
 import 'package:codebase_users/data/data_provider/user_data_provider.dart';
 import 'package:codebase_users/data/data_provider/user_local_provider.dart';
 import 'package:codebase_users/presentation/user_list/user_list_screen.dart';
