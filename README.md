@@ -40,3 +40,28 @@ It features infinite scrolling, pull-to-refresh, and real-time search functional
 3. **Run the app**
     ```bash
     flutter run
+
+
+# 📁 Project Structure
+    ```bash
+    lib/
+    ├── bloc/                               # BLoC logic (events, states, bloc)
+    │   ├── user_bloc.dart
+    │   ├── user_event.dart
+    │   └── user_state.dart
+    ├── models/                             # Data models
+    │   └── user_model.dart
+    ├── data/                               # API calls & Local Server Access
+    │   ├── repository/
+    │   │   └── user_repository.dart
+    │   └── data_provider/             
+    │       ├── user_data_provider.dart     # API calls
+    │       └── user_local_provider.dart    # Local server 
+    ├── presentation/                       # UI screens
+    │   ├── user_list_screen.dart
+    │   └── user_detail_screen.dart
+    ├── services/                           # Service call 
+    │   └── connectivity_service.dart
+    └── main.dart                           # App entry point
+
+

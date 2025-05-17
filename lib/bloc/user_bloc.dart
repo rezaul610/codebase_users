@@ -1,9 +1,9 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/foundation.dart';
 
-import '../../data/repository/user_repository.dart';
-import '../../models/user_model.dart';
-import '../../services/connectivity_service.dart';
+import '../data/repository/user_repository.dart';
+import '../models/user_model.dart';
+import '../services/connectivity_service.dart';
 
 part 'user_event.dart';
 part 'user_state.dart';
