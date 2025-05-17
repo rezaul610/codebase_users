@@ -1,16 +1,42 @@
 # codebase_users
 
-A new Flutter project.
+# 🧑‍💼 Flutter User List App
 
-## Getting Started
+A Flutter application that displays a list of users from the [Reqres API](https://reqres.in/api/users).  
+It features infinite scrolling, pull-to-refresh, and real-time search functionality — all built using **Flutter BLoC**, **http**, and **pull_to_refresh** packages.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📦 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✅ Fetch user list from REST API  
+✅ Infinite scroll (pagination)  
+✅ Pull to refresh  
+✅ Real-time search (first name & last name)  
+✅ Clean BLoC-based architecture  
+✅ Reusable components  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Tech Stack
+
+- **Flutter** 🐦  
+- **BLoC (flutter_bloc)** – State management  
+- **HTTP** – API requests  
+- **pull_to_refresh** – Refresh & load more list  
+- **Dart** – Programming language  
+
+---
+
+## 🔧 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/rezaul610/codebase_users.git
+   cd codebase_users
+2. **Install dependencies**
+    ```bash
+    flutter pub get
+3. **Run the app**
+    ```bash
+    flutter run
