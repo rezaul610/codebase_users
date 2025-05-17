@@ -20,7 +20,7 @@ It features infinite scrolling, pull-to-refresh, and real-time search functional
 
 ## 🛠️ Tech Stack
 
-- **Flutter** 🐦  
+- **Flutter** 🐦 3.27.1 
 - **BLoC (flutter_bloc)** – State management  
 - **HTTP** – API requests  
 - **pull_to_refresh** – Refresh & load more list  
