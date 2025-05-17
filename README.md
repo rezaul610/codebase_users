@@ -43,7 +43,6 @@ It features infinite scrolling, pull-to-refresh, and real-time search functional
 
 
 # 📁 Project Structure
-    ```bash
     lib/
     ├── bloc/                               # BLoC logic (events, states, bloc)
     │   ├── user_bloc.dart
